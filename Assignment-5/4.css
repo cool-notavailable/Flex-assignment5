@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin:10px 30px 10px 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main{
+  
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+    height:80px;
+    font-family:sans-serif;
+   
+}
+.logo-section{
+    
+    display:flex;
+    align-items:center;
+    position:absolute;
+    left:10px;
+    top:20px;
+    
+}
+/* logo-section */
+.logo-section>img{
+    height:40px;
+    margin-right:10px;
+}
+.logo-section>p{
+    font-size:1.2rem;
+    font-weight:100px;
+    color:#00000091;
+}
+/* button-section */
+.button-section{
+    position:absolute;
+    right:10px;
+    top:25px;
+}
+.button-three{
+    padding:10px 20px;
+    background-color: #1a73e8;
+    font-weight:400px;
+    color:#fff;
+    font-size:20px;
+    border:0.5px solid #1f1f1f5e;
+    border-radius:5px;
+    margin-left:20px;
+}
+.button-two{
+    padding:10px 20px;
+    color: #1a73e8;
+    font-weight:400px;
+    background-color:transparent;
+    font-size:20px;
+    border:0.5px solid #1f1f1f5e;
+    border-radius:5px;
+    margin-left:20px;
+}
+.button-one{
+    padding:10px 20px;
+    color: #1a73e8;
+    font-weight:400px;
+    background-color:transparent;
+    font-size:20px;
+    border:0;
+   
+    border-radius:5px;
+    margin-left:20px;
+}
+hr{
+    border:1px solid #1f1f1f5e;
+}
+/* main content */
+.main-content{
+    margin-top:30px;
+    padding-bottom:50px;
+    display:flex;
+}
+.left-items{
+    margin-top:50px;
+    margin:10px 20px 10px 10px;
+}
+.left-items > h2{
+   font-size:60px;
+   padding:10px 40px 10px 20px; 
+   font-weight:1000;
+   width:80%;
+}
+.left-items>h3{
+    font-size:20px;
+    font-weight:lighter;
+    width:80%;
+    padding:10px 0px 10px 20px;
+   
+}
+.secondary-button{
+    display:flex;
+    gap:40px;
+    margin:10px;
+}
+.button-left{
+    padding:10px 20px;
+    background-color: #1a73e8;
+    font-weight:400px;
+    color:#fff;
+    font-size:20px;
+    border:0.5px solid #1f1f1f5e;
+    border-radius:5px;
+}
+.button-right{
+    padding:10px 20px;
+    color: #1a73e8;
+    font-weight:400px;
+    background-color:transparent;
+    font-size:20px;
+    border:0;
+    border-radius:5px;
+}
+.right-items>img{
+    height:80vh;
+}
